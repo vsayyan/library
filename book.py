@@ -1,8 +1,6 @@
-class InsufficientFundsError(Exception):
-    """Raised error"""
 
 class Book:
-    book_name = "Python Book"
+    
 
     def __init__(self,title,author,):
         self.title = title
